@@ -6,9 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "lint": "eslint src/",
+    "lint": "eslint src/"
   },
-
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -17,7 +16,6 @@
   "lint-staged": {
     "src/**/*.js": "eslint"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -26,6 +24,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-html-parser": "^2.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
     "save": "^2.4.0"
   },
   "devDependencies": {
