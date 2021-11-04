@@ -10,9 +10,9 @@ const Hero = props => (
   </header>
 );
 
-/*Hero.propTypes = {
+Hero.propTypes = {
   titleText: PropTypes.node.isRequired,
   image: PropTypes.string.isRequired,
-}; */
+};
 
 export default Hero;
